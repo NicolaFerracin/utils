@@ -3,7 +3,7 @@ A repo contaning useful commands and scripts.
 
 ## Scripts
 
-All scripts can be found inside the [script](https://github.com/NicolaFerracin/utils/script) folder.
+All scripts can be found inside the [script](https://github.com/NicolaFerracin/utils/tree/master/scripts) folder.
 
 | Script        | Description  |
 | ------------- | -------------|
