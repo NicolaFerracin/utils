@@ -1,13 +1,14 @@
 # utils
-A repo contaning useful commands and scripts.
+A repo containing useful commands and scripts.
 
 ## Scripts
 
-All scripts can be found inside the [script](https://github.com/NicolaFerracin/utils/tree/master/scripts) folder.
+All scripts can be found inside the [scripts](https://github.com/NicolaFerracin/utils/tree/master/scripts) folder.
 
 | Script        | Description  |
 | ------------- | -------------|
-| incremental_number_renamer.sh | Rename all files with the given format in a given directory to incremental numbers, based on the amount of files present. <br/><br/> Examples: <br/>- 10 jpg files will be renamed from 01.jpg to 10.jpg <br/>- 100 jpg files will be renamed from 001.jpg to 100.jpg |
+| [incremental_number_renamer.sh](https://github.com/NicolaFerracin/utils/blob/master/scripts/incremental_number_renamer.sh) | Rename all files in a given directory to incremental numbers, based on the amount of files present. <br/><br/> Examples: <br/>- 10 files will be renamed from 01.xx to 10.xx <br/>- 100 files will be renamed from 001.xx to 100.xx |
+| [suffix_renamer.sh](https://github.com/NicolaFerracin/utils/blob/master/scripts/suffix_renamer.sh) | Given a directory, this script adds a given suffix to all file names in a given range. The range is determined on the files ordered lexicographically |
 
 ## Commands
 
