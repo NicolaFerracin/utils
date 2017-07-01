@@ -19,6 +19,6 @@ A list of useful commands
 | `du -h /dir --max-depth=1` | Same as above, but it stops at one folder deep |
 | `df -h` | Outputs the overall space usage in human readable format |
 | `history` | Prints the last `x` commands, where `x` is defined by `HISTSIZE` in `~/.bashrc`. Each command is printed on a new line with the format<br/>`<line-number> <command>` |
-| `history | grep "<search>"` | As above, but it prints only the commands containing the `<search>` string |
+| <code>history &#124; grep "<search>"<code> | As above, but it prints only the commands containing the `<search>` string |
 | `!<line-number>` | Usually used after running `history`. It runs the command that can be found at the given `<line-number>` of the `history` output
 | `!<string>` | Runs the last command starting with the given `<string>`. <br/><br/>Example:<br/>`$: echo "123"`<br/>`123`<br/>`$: !e`<br/>`echo "123"`<br/>`123`
