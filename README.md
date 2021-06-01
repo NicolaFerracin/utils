@@ -9,6 +9,8 @@ All scripts can be found inside the [scripts](https://github.com/NicolaFerracin/
 | ------------- | -------------|
 | [incremental_number_renamer.sh](https://github.com/NicolaFerracin/utils/blob/master/scripts/incremental_number_renamer.sh) | Rename all files in a given directory to incremental numbers, based on the amount of files present. <br/><br/> Examples: <br/>- 10 files will be renamed from 01.xx to 10.xx <br/>- 100 files will be renamed from 001.xx to 100.xx |
 | [suffix_renamer.sh](https://github.com/NicolaFerracin/utils/blob/master/scripts/suffix_renamer.sh) | Given a directory, this script adds a given suffix to all file names in a given range. The range is determined on the files ordered lexicographically |
+| [find_files_from_list.js](https://github.com/NicolaFerracin/utils/blob/master/scripts/find_files_from_list.js) | Given a list of file names and a directory with files find all the files matching in the directory matching the file name in the list |
+| [image-sorter-by-aspect-ratio.sh](https://github.com/NicolaFerracin/utils/blob/master/scripts/image-sorter-by-aspect-ratio.sh) | Sort all the images in /imgs into separate folders by their aspect ratio |
 
 ## DevOps
 
