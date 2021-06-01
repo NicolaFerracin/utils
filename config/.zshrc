@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias glog="git log --pretty=oneline -10 | tail"
+alias reload="source ~/.zshrc"
 
 source "/Users/$USER/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 eval $(thefuck --alias)
@@ -102,3 +104,11 @@ export NVM_DIR="/Users/$USER/.nvm"
 
 . `brew --prefix`/etc/profile.d/z.sh
 
+# Functions
+function hist() {
+	history | grep $1
+}
+
+function gdiff() {
+	git diff-tree -p $1;
+}
