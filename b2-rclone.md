@@ -4,6 +4,7 @@ KEY_ID and APP_KEY from the Backblaze website Application Keys
 BUCKET_NAME has to be globally unique and at least 6 characters long
 REMOTE_NAME it's the name of the rclone local configuration for the bucket
 FOLDER_NAME it's an optional folder inside the bucket, where to store the backup
+```
 
 Create b2 account remote
 `rclone config create b2 b2 account <KEY_ID> key <APP_KEY>`
