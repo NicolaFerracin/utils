@@ -7,13 +7,19 @@ FOLDER_NAME it's an optional folder inside the bucket, where to store the backup
 ```
 
 Create b2 account remote
-`rclone config create b2 b2 account <KEY_ID> key <APP_KEY>`
+```
+rclone config create b2 b2 account <KEY_ID> key <APP_KEY>`
+```
 
 Create bucket
-`rclone mkdir b2:<BUCKET_NAME>`
+```
+rclone mkdir b2:<BUCKET_NAME>
+```
 
 Generate password and salt
-`openssl rand -base64 15`
+```
+openssl rand -base64 15
+```
 
 Create crypt wrapper for the new bucket
 ```
@@ -27,7 +33,9 @@ rclone config create <REMOTE_NAME> crypt \
 ```
 
 Check config
-`rclone config show <REMOTE_NAME>`
+```
+rclone config show <REMOTE_NAME>
+```
 
 Upload to bucket
 ```
