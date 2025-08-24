@@ -66,3 +66,13 @@ rclone sync <PATH_TO_DATA> <REMOTE_NAME>:<FOLDER_NAME> \
   --fast-list \
   --retries 10 --low-level-retries 10
 ```
+
+Download
+```
+// List and inspect
+rclone size <REMOTE_NAME>:<FOLDER_NAME>
+rclone lsl <REMOTE_NAME>:<FOLDER_NAME> | head
+
+// Download to local folder
+rclone copy  <REMOTE_NAME>:<FOLDER_NAME> <PATH_TO_LOCAL_FOLDER> -P --stats 5s --transfers 16 --checkers 16 --local-no-set-modtime
+```
